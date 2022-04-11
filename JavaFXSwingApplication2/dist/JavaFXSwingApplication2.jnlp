@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXSwingApplication2.jnlp">
+  <information>
+    <title>JavaFXSwingApplication2</title>
+    <vendor>Swan</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXSwingApplication2.jar" size="256702" download="eager" />
+    <jar href="lib\mssql-jdbc-8.2.2.jre8.jar" size="1267297" download="eager" />
+  </resources>
+  <application-desc main-class="javafxswingapplication2.Menu"  name="JavaFXSwingApplication2" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
